@@ -28,7 +28,7 @@ const features = [
 
 const AppDevelopmentSection = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562999999999?text=Olá! Tenho interesse em desenvolver um aplicativo.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Tenho interesse em desenvolver um aplicativo.", "_blank");
   };
 
   return (

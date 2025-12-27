@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562999999999?text=Olá! Gostaria de saber mais sobre os serviços da Assis Studios.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Gostaria de saber mais sobre os serviços da Assis Studios.", "_blank");
   };
 
   return (
@@ -83,12 +83,12 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="h-5 w-5 text-primary" />
-                <span>(62) 99999-9999</span>
+                <span>(62) 98411-1513</span>
               </li>
-              <li className="flex items-center gap-3 text-muted-foreground">
+              {/* <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="h-5 w-5 text-primary" />
                 <span>contato@assisstudios.com.br</span>
-              </li>
+              </li> */}
             </ul>
             <Button variant="whatsapp" size="sm" className="mt-4" onClick={handleWhatsApp}>
               <MessageCircle className="h-4 w-4" />
@@ -103,7 +103,7 @@ const Footer = () => {
             © {new Date().getFullYear()} Assis Studios. Todos os direitos reservados.
           </p>
           <p className="text-sm text-muted-foreground">
-            Desenvolvido com 💙 em Trindade-GO
+            Desenvolvido com 💙 Assis Studios
           </p>
         </div>
       </div>

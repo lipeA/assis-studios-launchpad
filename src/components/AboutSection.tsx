@@ -5,7 +5,7 @@ import aboutTeam from "@/assets/about-team.jpg";
 
 const AboutSection = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562999999999?text=Olá! Gostaria de saber mais sobre a Assis Studios.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Gostaria de saber mais sobre a Assis Studios.", "_blank");
   };
 
   return (

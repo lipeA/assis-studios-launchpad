@@ -38,7 +38,7 @@ const faqs = [
 
 const FAQSection = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562999999999?text=Olá! Tenho uma dúvida sobre os serviços da Assis Studios.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Tenho uma dúvida sobre os serviços da Assis Studios.", "_blank");
   };
 
   return (

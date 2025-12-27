@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const WhatsAppFloat = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562999999999?text=Olá! Vim pelo site da Assis Studios.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Vim pelo site da Assis Studios.", "_blank");
   };
 
   return (

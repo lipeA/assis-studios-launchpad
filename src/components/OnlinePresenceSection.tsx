@@ -11,7 +11,7 @@ const stats = [
 
 const OnlinePresenceSection = () => {
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562999999999?text=Olá! Quero saber como posso melhorar minha presença online.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Quero saber como posso melhorar minha presença online.", "_blank");
   };
 
   return (
