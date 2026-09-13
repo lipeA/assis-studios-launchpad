@@ -26,7 +26,7 @@ const AboutSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-card">
               <img
                 src={aboutTeam}
-                alt="Equipe Assis Studios trabalhando em projetos digitais"
+                alt="Equipe Assis Studios desenvolvendo sites e aplicativos em Trindade-GO"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent" />
@@ -59,18 +59,20 @@ const AboutSection = () => {
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg leading-relaxed mb-8">
               <p>
-                Há mais de 5 anos, transformamos a presença digital de empresas em Goiânia, 
-                Trindade-GO e região. Somos especialistas em criar soluções tecnológicas que 
-                realmente fazem diferença nos resultados do seu negócio.
+                Há mais de 5 anos, transformamos a presença digital de empresas em Goiânia,
+                Trindade-GO e região. Somos especialistas em desenvolvimento full-stack,
+                criando soluções tecnológicas que realmente fazem diferença nos resultados
+                do seu negócio.
               </p>
               <p>
-                Nossa equipe multidisciplinar combina criatividade, estratégia e expertise técnica 
-                para desenvolver sites modernos, lojas virtuais de alta conversão, aplicativos 
-                intuitivos e campanhas de marketing digital que geram resultados reais.
+                Nossa equipe multidisciplinar combina criatividade, estratégia e expertise técnica
+                full-stack (front-end e back-end) para desenvolver sites modernos, lojas virtuais
+                de alta conversão, aplicativos nativos para Android e iPhone e campanhas de
+                marketing digital que geram resultados reais.
               </p>
               <p>
-                Acreditamos que cada projeto é único. Por isso, trabalhamos lado a lado com 
-                nossos clientes para entender suas necessidades e entregar soluções personalizadas 
+                Acreditamos que cada projeto é único. Por isso, trabalhamos lado a lado com
+                nossos clientes para entender suas necessidades e entregar soluções personalizadas
                 que superam expectativas.
               </p>
             </div>

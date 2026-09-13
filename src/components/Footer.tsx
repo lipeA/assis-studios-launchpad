@@ -21,9 +21,9 @@ const Footer = () => {
               </span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-              Há mais de 5 anos transformando empresas com soluções digitais em Goiânia, 
-              Trindade-GO e todo o Brasil. Desenvolvimento de sites, aplicativos e 
-              marketing digital.
+              Há mais de 5 anos transformando empresas com soluções digitais em Goiânia,
+              Trindade-GO e todo o Brasil. Desenvolvimento full-stack de sites, lojas virtuais
+              e aplicativos nativos para Android e iPhone, além de SEO e marketing digital.
             </p>
             <div className="flex gap-3">
               <a

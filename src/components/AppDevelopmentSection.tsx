@@ -54,9 +54,9 @@ const AppDevelopmentSection = () => {
               <span className="text-gradient">aplicativo mobile</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Um aplicativo coloca sua empresa literalmente na palma da mão dos seus clientes. 
-              Desenvolvemos apps nativos para Android e iOS que aumentam o engajamento, 
-              fidelizam clientes e criam novas oportunidades de receita.
+              Um aplicativo coloca sua empresa literalmente na palma da mão dos seus clientes.
+              Desenvolvemos aplicativos nativos para Android e iPhone (iOS) que aumentam o
+              engajamento, fidelizam clientes e criam novas oportunidades de receita.
             </p>
 
             {/* Features Grid */}
@@ -99,7 +99,7 @@ const AppDevelopmentSection = () => {
               <div className="absolute inset-0 bg-gradient-primary rounded-3xl blur-3xl opacity-20 scale-90" />
               <img
                 src={appMockup}
-                alt="Mockup de aplicativo mobile desenvolvido pela Assis Studios"
+                alt="Mockup de aplicativo mobile nativo para Android e iPhone desenvolvido pela Assis Studios"
                 className="relative rounded-3xl shadow-card w-full max-w-md mx-auto animate-float"
               />
             </div>
@@ -116,7 +116,7 @@ const AppDevelopmentSection = () => {
                   <span className="text-lg">📱</span>
                 </div>
                 <div>
-                  <div className="font-semibold text-sm">Android & iOS</div>
+                  <div className="font-semibold text-sm">Android & iPhone</div>
                   <div className="text-xs text-muted-foreground">Apps Nativos</div>
                 </div>
               </div>

@@ -5,21 +5,21 @@ import { Button } from "@/components/ui/button";
 const services = [
   {
     icon: Globe,
-    title: "Desenvolvimento de Sites",
-    description: "Sites institucionais, landing pages e portais modernos com design responsivo, otimizados para SEO e com alta performance.",
+    title: "Desenvolvimento de Sites Full-Stack",
+    description: "Sites institucionais, landing pages e portais modernos com design responsivo, desenvolvimento full-stack, otimizados para SEO e com alta performance.",
     features: ["Design Responsivo", "SEO Otimizado", "Carregamento Rápido"],
   },
   {
     icon: ShoppingCart,
-    title: "Lojas Virtuais WooCommerce",
-    description: "E-commerces completos com WooCommerce, integração com meios de pagamento e gestão simplificada de produtos e pedidos.",
+    title: "Lojas Virtuais e E-commerce (WooCommerce)",
+    description: "E-commerces completos com WooCommerce, integração com meios de pagamento (PIX, cartão e boleto) e gestão simplificada de produtos e pedidos.",
     features: ["Integração PIX", "Gestão de Estoque", "Multi-vendedores"],
   },
   {
     icon: Smartphone,
-    title: "Aplicativos Mobile",
-    description: "Apps nativos para Android e iOS com interfaces intuitivas, notificações push e integração com sistemas externos.",
-    features: ["Android & iOS", "Notificações Push", "APIs Integradas"],
+    title: "Aplicativos Android e iPhone",
+    description: "Apps nativos para Android e iPhone (iOS) com interfaces intuitivas, notificações push e integração com sistemas externos.",
+    features: ["Android & iPhone (iOS)", "Notificações Push", "APIs Integradas"],
   },
   {
     icon: Search,

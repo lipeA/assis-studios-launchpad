@@ -10,13 +10,13 @@ const slides = [
     image: heroBanner1,
     title: "Transformamos Ideias em",
     highlight: "Soluções Digitais",
-    subtitle: "Desenvolvimento de sites, aplicativos e estratégias de marketing digital que impulsionam seu negócio em Goiânia e Trindade-GO.",
+    subtitle: "Desenvolvedor full-stack criando sites, aplicativos nativos para Android e iPhone e estratégias de marketing digital que impulsionam seu negócio em Trindade-GO, Goiânia e região.",
   },
   {
     image: heroBanner2,
     title: "Seu Negócio no",
     highlight: "Mundo Digital",
-    subtitle: "Sites, lojas virtuais, apps e campanhas de performance. Mais de 5 anos transformando empresas com tecnologia.",
+    subtitle: "Sites, lojas virtuais, aplicativos Android e iPhone e campanhas de performance. Mais de 5 anos transformando empresas com tecnologia.",
   },
 ];
 
@@ -37,7 +37,7 @@ const HeroCarousel = () => {
   }, [nextSlide]);
 
   const handleWhatsApp = () => {
-    window.open("https://wa.me/5562084111513?text=Olá! Gostaria de saber mais sobre os serviços da Assis Studios.", "_blank");
+    window.open("https://wa.me/5562984111513?text=Olá! Gostaria de saber mais sobre os serviços da Assis Studios.", "_blank");
   };
 
   return (
@@ -73,7 +73,7 @@ const HeroCarousel = () => {
             className="max-w-3xl"
           >
             <span className="inline-block px-4 py-2 rounded-full border border-primary/50 text-primary text-sm font-medium mb-6">
-              +5 anos de experiência em Goiânia e Trindade-GO
+              Desenvolvedor full-stack com +5 anos de experiência em Trindade-GO e Goiânia
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold leading-tight mb-6">
               {slides[currentSlide].title}{" "}

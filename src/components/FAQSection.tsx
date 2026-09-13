@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Helmet } from "react-helmet-async";
 import {
   Accordion,
   AccordionContent,
@@ -13,6 +14,10 @@ const faqs = [
   {
     question: "Quanto tempo leva para desenvolver um site?",
     answer: "O prazo varia conforme a complexidade do projeto. Sites institucionais geralmente ficam prontos em 2 a 4 semanas, enquanto lojas virtuais e sistemas mais complexos podem levar de 4 a 8 semanas. Trabalhamos com cronogramas definidos e mantemos você informado em cada etapa.",
+  },
+  {
+    question: "Vocês desenvolvem aplicativos para Android e iPhone?",
+    answer: "Sim! Desenvolvemos aplicativos nativos tanto para Android quanto para iPhone (iOS), com foco em performance, design intuitivo e integração com APIs e sistemas externos, incluindo notificações push.",
   },
   {
     question: "Vocês oferecem suporte após a entrega do projeto?",
@@ -36,6 +41,19 @@ const faqs = [
   },
 ];
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqs.map((faq) => ({
+    "@type": "Question",
+    name: faq.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: faq.answer,
+    },
+  })),
+};
+
 const FAQSection = () => {
   const handleWhatsApp = () => {
     window.open("https://wa.me/5562984111513?text=Olá! Tenho uma dúvida sobre os serviços da Assis Studios.", "_blank");
@@ -43,6 +61,9 @@ const FAQSection = () => {
 
   return (
     <section id="faq" className="section-padding bg-gradient-hero relative overflow-hidden">
+      <Helmet>
+        <script type="application/ld+json">{JSON.stringify(faqJsonLd)}</script>
+      </Helmet>
       {/* Decorative elements */}
       <div className="absolute bottom-0 left-1/2 w-[800px] h-[400px] bg-primary/5 rounded-full blur-3xl -translate-x-1/2" />
       
